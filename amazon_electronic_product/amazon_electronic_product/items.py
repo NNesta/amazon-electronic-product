@@ -8,7 +8,10 @@ import scrapy
 
 class ProductItem(scrapy.Item):
 
-    name = scrapy.Field()
-    price = scrapy.Field()
-    satatus = scrapy.Field()
+    Name = scrapy.Field()
+    Price = scrapy.Field()
+    Manufacturer = scrapy.Field()
+    Ratings = scrapy.Field()
+    Reviews = scrapy.Field()
+    image_link = scrapy.Field()
 
